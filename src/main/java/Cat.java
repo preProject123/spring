@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class Cat {
+import lombok.Getter;
+import lombok.Setter;
+
+public class Cat {
+
+    @Getter
+    @Setter
+    private String name;
+
+
 }
